@@ -42,11 +42,11 @@ while 10
     end
     
     
-    disp('O produto externo dos vectores introduzidos é   ')
+    disp('O produto externo dos vectores introduzidos Ã©   ')
     
     d = cross(b,a);
     c=-1*d
-    disp('E o angulo entre a e b, em radianos e em graus é   ')
+    disp('E o angulo entre a e b, em radianos e em graus Ã©   ')
     modulo_a = norm(a);
     modulo_b=norm(b);
     format long
