@@ -42,7 +42,7 @@ while 10
     end
     
     
-    disp('O produto interno dos vectores introduzidos, e o angulo entre si em radianos e em graus é   ')
+    disp('O produto interno dos vectores introduzidos, e o angulo entre si em radianos e em graus Ã©   ')
     modulo_a = norm(a);
     modulo_b=norm(b);
     format long
