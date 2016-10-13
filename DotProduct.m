@@ -1,9 +1,9 @@
-function produto_interno
+function dotproduct
 while 10
     
     a=zeros(1,3);
     while 2
-        disp('Insira as componentes do vector a: ')
+        disp('Insert the components of vector a, (a1,a2,a3): ')
         disp('')
         for i=1:3,
             epslon=input('');
@@ -11,7 +11,7 @@ while 10
             
         end
         disp(a)
-        answer1=input('Confirma os valores? SIM==>1, NAO==>OUTRO ALGARISMO  ');
+        answer1=input('Do you confirm? YES==>1, NO==> ANOTHER DIGIT  ');
         if answer1==1
             clc
             break
@@ -24,14 +24,14 @@ while 10
     
     b=zeros(1,3);
     while 3
-        disp('Insira as componentes do vector b: ')
+        disp('Insert the components of vector b, (b1,b2,b3): ')
         disp('')
         for j=1:3,
             zeta=input('');
             b(1,j)=zeta;
         end
         disp(b)
-        answer2=input('Confirma os valores? SIM==>1, NAO==>OUTRO ALGARISMO  ');
+        answer2=input('Do you confirm? YES==>1, NO==> ANOTHER DIGIT ');
         if answer2==1
             clc
             break
@@ -42,7 +42,7 @@ while 10
     end
     
     
-    disp('O produto interno dos vectores introduzidos, e o angulo entre si em radianos e em graus é   ')
+    disp('The dot product between the given vectors, and the angle between them in radians and degrees is :    ')
     modulo_a = norm(a);
     modulo_b=norm(b);
     format long
@@ -52,7 +52,7 @@ while 10
     thetadeg=(thetarad*180)/pi
     
     
-    answer4=input('Pretende novos calculos? SIM==>1, NAO==>OUTRO ALGARISMO   ');
+    answer4=input('Do you want more calculations? YES==>1, NO==>ANOTHER DIGIT   ');
     if answer4==1
         clc
         
